@@ -48,7 +48,6 @@ public class TestOrderPage {
     }
     @After
     public void tearDown() {
-        // Закрой браузер
         driver.quit();
     }
 

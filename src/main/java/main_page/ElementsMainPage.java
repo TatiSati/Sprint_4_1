@@ -92,6 +92,7 @@ public class ElementsMainPage {
         new WebDriverWait(driver, 3).until(ExpectedConditions.visibilityOfElementLocated(qLiveOutsideMoscowText));
         return driver.findElement(qLiveOutsideMoscowText).getText();
     }
+    //метод закрыть куки
     public void clickCloseCookie(){
         driver.findElement(closeCookie).click();
     }

@@ -30,8 +30,7 @@ public class OrderPageOne {
  private By inputDay = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
  // локатор "срок аренды"
  private By rentalPeriod = By.className("Dropdown-placeholder");
- //список ответов периода аренды
- // public By faqRentalPeriod =By.xpath("//div[contains(@class,'Dropdown-menu')]");
+
  // локатор "Цвет самоката"
  private By scooterColour = By.id("black");
  //локатор поля "Комментарий для курьера"
