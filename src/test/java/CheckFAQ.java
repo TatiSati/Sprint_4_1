@@ -67,7 +67,6 @@ public class CheckFAQ {
     }
     @After
     public void tearDown() {
-        // Закрой браузер
         driver.quit();
     }
 }
